@@ -1,7 +1,7 @@
 {
-  "name": "minimal-webpack-es6-react-boilerplate",
-  "version": "1.0.0",
-  "description": "Nothing but Webpack/Webpack Dev Server, Babel, and React.",
+  "name": "flip-react",
+  "version": "0.0.1",
+  "description": "React meta-component to simplify using the FLIP animation technique with React.",
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
