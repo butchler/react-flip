@@ -34,28 +34,18 @@
 
     opacity: 1;
 
-    /* The FLIP component only manages the transform and opacity properties
-       because they can be animated the most efficiently, but you can still
-       transition other properties yourself using normal CSS transitions. You
-       just have to add the appropriate transition to each class that you want
-       to be animate. */
     color: white;
-    transition: color 1s;
 }
 
 /* You can define different transitions speeds and transition functions when
    the element transitions to different states. */
 .example-centered.flip-transition {
-    /* You'll also need to add any custom transitions to the transitionClass. */
     transition: transform 1s, opacity 1s, color 1s;
 }
 /* For example, I can make the animation faster and use a different easing
    function when it goes from some other state back to the normal state. */
 .example-normal.flip-transition {
-    /* Because I didn't add the color transition to this the transitionClass
-       for .example-normal, the text color will not animate when going from the
-       centered state to the normal state, only the other way around. */
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 </style>
     </head>

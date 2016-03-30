@@ -1,6 +1,6 @@
 {
   "name": "flip-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "React meta-component to simplify using the FLIP animation technique with React.",
   "main": "public/index.html",
   "scripts": {

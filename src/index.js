@@ -5,7 +5,7 @@ import FLIP from './FLIP';
 
 function render(className) {
     ReactDOM.render(
-            <FLIP className={className} component="h2">This is only a test.</FLIP>,
+            <FLIP className={className} component="h2" flipProperties={['opacity', 'color']}>This is only a test.</FLIP>,
             document.getElementById('app-container')
     );
 }
